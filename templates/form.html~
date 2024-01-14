@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="/static/form.css">
+
+</head>
+<body>
+	<div class="main">
+	<form name="Registration" method="post">
+	<div class="h">
+	<h2 style="color: black;"> Registration Form</h2></div>
+	<label>First Name: </label>
+	<input type="text" name="First" placeholder="First name" id="n" required><br><br>
+	<label>Middle Name: </label>
+	<input type="text" name="Middle" placeholder="Second name"><br><br>
+	<label>Last Name: </label>
+	<input type="text" name="Last" placeholder="Last name" id="name2" required><br><br>
+	<label>Phone Number: </label>
+	<input type="phoneNumber" name="phoneNumber" id="phone"  required><br><br>
+	<label>Email Address: </label>
+	<input type="Email" name="email" placeholder="****@rub.edu.bt"><br><br>
+	<div class="g">
+	<lable>Gender: </lable><br>
+	<input type="radio" name="gender" value="Male"> Male <br>
+	<input type="radio" name="gender" value="Female"> Female<br></div>
+	<label>Enter Password: </label>
+	<input type="Password" name="Password" id="password"s><br><br>
+	<label>Confirm Password: </label>
+	<input type="Password" name="password" id="conpassword"><br><br>
+	<p id="ss"></p><br>
+	<input type="Submit" name="submit" onclick="document.getElementById('ss').innerHTML = Valid()">
+	<input type="reset" name="reset">
+	</form>
+</div>
+<br>
+<a href="/hello/de-chan">setl</a>
+</body>
+
+</html><script type="application/x-javascript">
+	<!--
+
+	-->
+</script><!DOCTYPE html>

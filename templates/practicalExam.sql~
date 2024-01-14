@@ -1,0 +1,4 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE register (name varchar(50), CID int, birthdate varchar(30), gender char);
+COMMIT;

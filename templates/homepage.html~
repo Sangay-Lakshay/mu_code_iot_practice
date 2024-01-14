@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>home</title>
+<link rel="stylesheet" type="text/css" href="/static/charo.css">
+</head>
+<body>
+
+<h1>Home Page</h1>
+<h2>Registration</h2>
+<p>New patients are registered.</p>
+<br>
+<h2>Breach Tracking</h2>
+<p>Tracks the movements of patients, with respect to three different zones. For safety of the patients the social distancing must be maintained</p>
+<br>
+<h2>Ambiance Monitoring of Facility</h2>
+<p>Monitors the quarantine facility, records the light and noise label. If a certain threshold level is crossed the person is alerted through phone.</p>
+
+</body>
+</html>

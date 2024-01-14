@@ -1,0 +1,8 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE register (name varchar(50), CID int primary key, birthdate date, gender char);
+INSERT INTO register VALUES('lakshay',1235,'2000-05-14','F');
+CREATE TABLE patient(name varchar(50), CID int primary key, birthdate varchar(20), gender char);
+COMMIT;
+patient   register
+main: /home/pi/practical

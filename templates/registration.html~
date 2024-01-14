@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration</title>
+<link rel="stylesheet" type="text/css" href="/static/form.css">
+</head>
+<body class="main">
+
+<h1>Registration Form for Patient</h1>
+<form action="" method="POST"> 
+<label> Name: </label>
+<input type="text" name="name"><br><br>
+
+<label> CID: </label>
+<input type="number" name="cid"><br><br>
+
+<label> Birth Date: </label>
+<input type="date" name="dob" min="2000-01-02"><br><br>
+
+<label> Gender: </label>
+<input type="string" name="gen"><br><br>
+
+<input type = 'submit' name="submit">
+</form>
+
+</body>
+</html>

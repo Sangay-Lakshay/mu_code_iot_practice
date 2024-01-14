@@ -1,0 +1,10 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE user (name varchar(50), CID int, birthdate varchar(30), gender char);
+INSERT INTO user VALUES('kencho',123,'2001-05-14','F');
+COMMIT;
+1|0|1
+1|0|1
+1
+kencho|123|2001-05-14|F
+user

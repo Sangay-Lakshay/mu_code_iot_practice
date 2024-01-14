@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Counter<title>
+
+</head>
+<body>
+
+<h1>Counter Page</h1>
+<table>
+<tr>
+
+<th>Total number of Patient</th>
+<th>Number of Male Patients</th>
+<th>Number of Female Patients</th>
+
+</tr>
+		{% for row in rows %}
+		<tr>
+	 	<th>{{ row['total'] }}</th>
+	 	<th>{{ row['male'] }}</th>
+	 	<th>{{ row['female'] }}</th>
+	 	</tr>
+		{% endfor %}
+	
+</table>
+
+</body>
+</html>

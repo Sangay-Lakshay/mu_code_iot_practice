@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ngi Charo tshu</title>
+<link rel="stylesheet" type="text/css" href="/static/charo.css">
+</head>
+<body>
+
+<h1>Friends</h1>
+<table>
+<tr>
+
+<th>Name</th>
+<th>gender</th>
+<th>contact</th>
+<th>address</th>
+
+</tr>
+		{% for row in rows %}
+		<tr>
+	 	<th>{{ row['name'] }}</th>
+	 	<th>{{ row['gen'] }}</th>
+	 	<th>{{ row['contact'] }}</th>
+	 	<th>{{ row['address'] }}</th>
+	 	</tr>
+		{% endfor %}
+	
+</table>
+
+</body>
+</html>
